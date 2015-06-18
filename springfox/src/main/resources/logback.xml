@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date %level [%thread] %logger{10} [%file:%line] %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Application Loggers -->
+	<logger name="de.rizzicr.testing">
+		<level value="debug"/>
+	</logger>
+
+	<!-- 3rdparty Loggers -->
+	<logger name="org.springframework.core">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.springframework.data">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.springframework.beans">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.springframework.context">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.springframework.web">
+		<level value="info"/>
+	</logger>
+
+	<logger
+			name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+		<level value="error"/>
+	</logger>
+
+	<logger name="org.springframework.security">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.springframework.batch">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.springframework">
+		<level value="info"/>
+	</logger>
+
+	<logger name="org.hibernate">
+		<level value="error"/>
+	</logger>
+
+	<logger name="org.tuckey.web.filters.urlrewrite.UrlRewriteFilter">
+		<level value="error"/>
+	</logger>
+
+	<!-- Root Logger -->
+	<root level="debug">
+		<appender-ref ref="STDOUT"/>
+	</root>
+</configuration>
