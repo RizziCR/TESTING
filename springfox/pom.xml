@@ -20,12 +20,12 @@
 
 		<!-- Dependencies Version -->
 		<commons-lang3.version>3.4</commons-lang3.version>
-		<jackson-datatype-jsr310.version>2.5.1</jackson-datatype-jsr310.version>
-		<jackson-datatype.version>2.5.3</jackson-datatype.version>
+		<jackson-datatype-jsr310.version>2.5.4</jackson-datatype-jsr310.version>
+		<jackson-datatype.version>2.5.4</jackson-datatype.version>
 		<jadira-usertype-extended.version>3.2.0.GA</jadira-usertype-extended.version>
-		<libphonenumber.version>7.0.5</libphonenumber.version>
+		<libphonenumber.version>7.0.7</libphonenumber.version>
 		<lombok.version>1.16.4</lombok.version>
-		<springfox-swagger.version>2.0.2</springfox-swagger.version>
+		<springfox-swagger.version>2.0.3</springfox-swagger.version>
 	</properties>
 
 	<dependencies>
@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>1.2.3.RELEASE</version>
+			<version>1.2.5.RELEASE</version>
 		</dependency>
 
 		<!-- Swagger -->
